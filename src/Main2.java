@@ -4,6 +4,7 @@ public class Main2 {
 	public static void main(String[] args) {
 		
 		String s = "Nishant Chendulkar";
+		System.out.println("Before Reverse: "+s);
 		String [] a = s.split(" ");
 		
 		String r = "";
@@ -18,7 +19,7 @@ public class Main2 {
 			}
 			r = r.concat(t);
 		}
-		System.out.println(r);
+		System.out.println("After Reverse: "+r);
 	}
 
 }
